@@ -1,0 +1,29 @@
+print('simple clauclator')
+print("selected Operation")
+print("1.addition")
+print("2.Subtraction")
+print("3.multiplication")
+print("4.division")
+print("0.stop the program")
+print("5.modulus")
+
+
+while(True):
+    Operation = int(input("Enter Choice(1/2/3/4)>> "))
+    num1 = int(input("enter the number:"))
+    num2 = int(input("enter the number:"))
+    
+    if Operation ==1:
+        print(num1+num2)
+    elif Operation ==2:
+        print(num1-num2)
+    elif Operation ==3:
+        print(num1*num2)
+    elif Operation ==4:
+        print(num1/num2)
+    elif Operation ==0:
+        print("stop the program")
+    elif Operation ==5:
+        print(num1%num2)
+    else:
+        print("thank you")
